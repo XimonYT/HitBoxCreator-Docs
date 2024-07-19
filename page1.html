@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Page 1</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="sidebar">
+			<h2>Documentation</h2>
+			<a href="index.html" onclick="setActive(this)">Home</a>
+			<a href="page1.html" onclick="setActive(this)">Beginning of work</a>
+			<a href="page2.html" onclick="setActive(this)">Damage Func</a>
+			<a href="page3.html" onclick="setActive(this)">Create Func</a>
+		</div>
+		<div class="content" id="content">
+			<h1 id="title">Beginning of work</h1>
+			<p id="description">Example:</p>
+			<p id="description">
+				<img src="/images/Example1.png" alt="Example" srcset="" />
+			</p>
+			<p id="description">
+				In this case I indicated <span class="Prop">HumanoidRootPart</span> as
+				starting position
+			</p>
+			<p id="description">Properties:</p>
+			<p id="description">
+				<span class="Prop">Name</span> - this is the name of your hitbox
+			</p>
+			<p id="description">
+				<span class="Prop">StartCFrame</span> - this is the starting position of
+				your hitbox
+			</p>
+			<p id="description">
+				<span class="Prop">ForwardCFrame</span> - This is how far your hitbox
+				will be from the StartCFrame (-1 will be in front of you, 1 will be
+				behind you).
+			</p>
+			<p id="description">
+				<span class="Prop">Size</span> - This is the size of your hitbox
+				(specify in Vector3)
+			</p>
+			<p id="description">
+				<span class="Prop">Duration</span> - This is the delay before your
+				hitbox disappears.
+			</p>
+			<p id="description">
+				<span class="Prop">Visible</span> - will your hitbox be visible (true or
+				false)
+			</p>
+			<p id="description">
+				<span class="Prop">Rotate</span> - This is whether your hitbox will be
+				rotated in one of three directions (specify in Vector3)
+			</p>
+			<p id="description">
+				<span class="Prop">Char</span> - It must be indicated to avoid further
+				consequences.
+			</p>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>
